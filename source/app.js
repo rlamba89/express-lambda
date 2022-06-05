@@ -3,7 +3,7 @@ const app = new express();
 
 
 app.get('/', (req,res) =>{
-    res.send('Hello World!');
+    res.send('Hello World CDK Demo!');
 });
 
 const port = 8080
